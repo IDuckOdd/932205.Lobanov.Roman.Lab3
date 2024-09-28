@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -30,6 +30,7 @@ main {
     margin-right: auto;
     max-width: 802px;
     height: 100%;
+    flex-grow: 1;
 }
 
 .left_column {
@@ -60,7 +61,6 @@ main {
     margin-left: 30px;
     margin-top: 27px;
     margin-right: 35px;
-    margin-bottom: auto;
 }
 
 .content p {
